@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/ic_bg"
+        android:backgroundTint="#A3000000"
+        android:backgroundTintMode="src_over"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Instructions"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="487dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="334dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginLeft="38dp"
+                    android:text="Disclaimer:\nThis game contains spoilers from the anime One Piece. If you haven't watched at least up to the Wano Arc, you may encounter spoilers.\n \n\nHow to Play:\n\nKnowledge Test:\nThis game will test your knowledge about the One Piece anime series.\n\nTime Limit:\nYou have 10 seconds to answer each question. If you don't answer within the time limit, the game will move on to the next question automatically.\n\nObjective:\nEnjoy and have fun while testing your knowledge of One Piece"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:textSize="18sp"
+            android:padding="12dp"
+            />
+
+    </LinearLayout>
+
+</layout>
