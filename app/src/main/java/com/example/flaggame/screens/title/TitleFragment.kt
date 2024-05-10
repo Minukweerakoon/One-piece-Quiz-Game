@@ -24,6 +24,7 @@ class TitleFragment : Fragment() {
             if (binding.etName.text.toString().isNotEmpty()) {
                 // Navigate to the InstructionsFragment
                 val action = TitleFragmentDirections.actionTitleFragmentToInstructionsFragment()
+                action.name = binding.etName.text.toString()
                 findNavController().navigate(action)
             } else {
                 // Display a toast message if the name EditText is empty

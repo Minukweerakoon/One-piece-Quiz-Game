@@ -23,6 +23,10 @@
         <action
             android:id="@+id/action_instructionsFragment_to_gameFragment"
             app:destination="@id/gameFragment" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="name" />
     </fragment>
 
     <!-- Game Fragment -->

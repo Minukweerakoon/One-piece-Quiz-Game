@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
     private var currentTrackIndex = 0
     private var screenOffReceiver: BroadcastReceiver? = null
     private var screenOnReceiver: BroadcastReceiver? = null
+    private var screenReceiver: BroadcastReceiver? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,6 +54,9 @@ class MainActivity : AppCompatActivity() {
 
         // Register BroadcastReceiver to listen for screen on event
         registerScreenOnReceiver()
+
+        // Register BroadcastReceiver to listen for screen visibility changes
+        registerScreenVisibilityReceiver()
     }
 
     private fun switchToNextTrack() {
@@ -92,6 +96,32 @@ class MainActivity : AppCompatActivity() {
         registerReceiver(screenOnReceiver, filter)
     }
 
+    private fun registerScreenVisibilityReceiver() {
+        val filter = IntentFilter()
+        filter.addAction(Intent.ACTION_USER_PRESENT)
+        filter.addAction(Intent.ACTION_SCREEN_ON)
+        screenReceiver = object : BroadcastReceiver() {
+            override fun onReceive(context: Context?, intent: Intent?) {
+                if (intent?.action == Intent.ACTION_USER_PRESENT ||
+                    intent?.action == Intent.ACTION_SCREEN_ON
+                ) {
+                    // App is visible on screen, start playing music
+                    backgroundMediaPlayer.start()
+                } else {
+                    // App is not visible on screen, pause music
+                    backgroundMediaPlayer.pause()
+                }
+            }
+        }
+        registerReceiver(screenReceiver, filter)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        // Pause the music when the app goes into the background
+        backgroundMediaPlayer.pause()
+    }
+
     override fun onDestroy() {
         super.onDestroy()
 
@@ -100,6 +130,9 @@ class MainActivity : AppCompatActivity() {
             unregisterReceiver(it)
         }
         screenOnReceiver?.let {
+            unregisterReceiver(it)
+        }
+        screenReceiver?.let {
             unregisterReceiver(it)
         }
 

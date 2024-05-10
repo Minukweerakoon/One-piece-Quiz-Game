@@ -21,7 +21,9 @@ class InstructionsFragment : Fragment() {
 
         // Navigate to the game page when the continue button is clicked
         binding.btnContinue.setOnClickListener {
-            findNavController().navigate(R.id.action_instructionsFragment_to_gameFragment)
+            val action = InstructionsFragmentDirections.actionInstructionsFragmentToGameFragment()
+            action.name = arguments?.getString("name") ?: ""
+            findNavController().navigate(action)
         }
 
         return binding.root
