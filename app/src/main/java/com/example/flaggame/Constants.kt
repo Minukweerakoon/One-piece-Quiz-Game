@@ -199,6 +199,14 @@ object Constants {
             "Basil Hawkins",
             1)
 
+        val que24 = Question(24,
+            "What is the name of the island where the Sky Island, Skypiea, is located?", R.drawable.skypiea,
+            "Jaya",
+            "Water 7",
+            "Enies Lobby",
+            "Marineford",
+            1)
+
         val que25 = Question(25,
             "Who is the former Vice captain of the Roger Pirates?", R.drawable.roger,
             "Gol D. Roger",
@@ -231,15 +239,8 @@ object Constants {
             "Kaya",
             2)
 
-        val que24 = Question(24,
-            "What is the name of the island where the Sky Island, Skypiea, is located?", R.drawable.skypiea,
-            "Jaya",
-            "Water 7",
-            "Enies Lobby",
-            "Marineford",
-            1)
 
-        val que31 = Question(31,
+        val que30 = Question(30,
             "What is the name of Monkey D. Luffy's grandfather?", R.drawable.garp,
             "Garp",
             "Roger",
@@ -447,6 +448,98 @@ object Constants {
             "Nothing Happend",
             4)
 
+        val que90 = Question(90,
+            "What is the name of the worrior tribe living in Skypiea?", R.drawable.shandorians,
+            "Minks",
+            "Shandorians",
+            "Skymans",
+            "Tontatta",
+            2)
+
+        val que91 = Question(91,
+            "Who was considered as GOD in Skypiea?", R.drawable.shandorians,
+            "Crocodile",
+            "Rob Lucci",
+            "Eneru",
+            "Donquixote Doflamingo",
+            3)
+
+        val que92 = Question(92,
+            "What are the special items that found in Skypiea", R.drawable.dials,
+            "Dials",
+            "Shells",
+            "Sea Prism",
+            "Lamps",
+            1)
+
+        val que93 = Question(93,
+            "How many berries did Nami have to gather for Arlong in order to free Cocoyasi Village?", R.drawable.arlong,
+            "100,000 Berries",
+            "1,000,000 Berries",
+            "10,000,000 Berries",
+            "100,000,000 Berries",
+            4)
+
+        val que94 = Question(94,
+            "What is the name of the Straw Hats' first ship?", R.drawable.goingmerry,
+            "Going Merry",
+            "Merry Go",
+            "Merry",
+            "Thousand Sunny",
+            1)
+
+        val que95 = Question(95,
+            "Which devil fruit was the first to appear after Luffy's?", R.drawable.devilfruits,
+            "Slip-Slip Fruit",
+            "Boom-Boom Fruit",
+            "Chop-Chop Fruit",
+            "Dice-Dice Fruit",
+            3)
+
+        val que96 = Question(96,
+            "What is the name of Brook's old crew?", R.drawable.rumba,
+            "The Roshio Pirates",
+            "The On-Air Pirates",
+            "The Rumbar Pirates",
+            "The Spade Pirates",
+            3)
+
+        val que97 = Question(97,
+            "Who took over Chopper's body in Punk Hazard?", R.drawable.punkhazard,
+            "Franky",
+            "Sanji",
+            "Nami",
+            "Usopp",
+            1)
+
+        val que98 = Question(98,
+            "Who took over Chopper's body in Punk Hazard?", R.drawable.punkhazard,
+            "Franky",
+            "Sanji",
+            "Nami",
+            "Usopp",
+            1)
+
+        val que99 = Question(99,
+            "Where was Gol D. Roger executed?", R.drawable.rogerdeath,
+            "Raftel",
+            "Loguetown",
+            "Goa Kingdom",
+            "Jaya",
+            2)
+
+        val que100 = Question(100,
+            " What is the only race/tribe you can't find on Tottoland?", R.drawable.tottoland,
+            "Mink Tribe",
+            "Longarm Tribe",
+            "Giants",
+            "Three-Eye Tribe",
+            3)
+
+
+
+
+
 
 
 
@@ -482,7 +575,7 @@ object Constants {
         allQuestions.add(que26)
         allQuestions.add(que28)
         allQuestions.add(que29)
-        allQuestions.add(que31)
+        allQuestions.add(que30)
         allQuestions.add(que33)
         allQuestions.add(que36)
         allQuestions.add(que38)
@@ -507,6 +600,18 @@ object Constants {
         allQuestions.add(que81)
         allQuestions.add(que85)
         allQuestions.add(que88)
+        allQuestions.add(que89)
+        allQuestions.add(que90)
+        allQuestions.add(que91)
+        allQuestions.add(que92)
+        allQuestions.add(que93)
+        allQuestions.add(que94)
+        allQuestions.add(que95)
+        allQuestions.add(que96)
+        allQuestions.add(que97)
+        allQuestions.add(que98)
+        allQuestions.add(que99)
+        allQuestions.add(que100)
 
 
     }
