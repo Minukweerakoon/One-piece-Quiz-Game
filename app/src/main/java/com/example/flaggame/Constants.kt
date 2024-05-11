@@ -184,12 +184,12 @@ object Constants {
             4)
 
         val que22 = Question(22,
-            "What is the only known Ancient Weapon?", R.drawable.posiden,
-            "Poseidon",
-            "Uranus",
-            "Neptune",
-            "Pluton",
-            1)
+            "What is these special Fruit is called?", R.drawable.smile,
+            "Devil Fruits",
+            "Smiles",
+            "Rubber Fruits",
+            "Button Fruits",
+            2)
 
         val que23 = Question(23,
             "Who is the captain of the Heart Pirates?", R.drawable.heartpirates,
@@ -353,7 +353,7 @@ object Constants {
             3)
 
         val que67 = Question(67,
-            "Who is known as 'The Dark King' in the One Piece series?", R.drawable.ray,
+            "Who is known as 'The Dark King'?", R.drawable.ray,
             "Rayleigh",
             "Shanks",
             "Kuma",
@@ -369,11 +369,11 @@ object Constants {
             2)
 
         val que63 = Question(63,
-            "Who is known as 'The Tyrant' in the One Piece series?", R.drawable.kuma,
-            "Moria",
-            "Kuma",
-            "Arlong",
-            "Hody Jones",
+            "Bartholomew Kuma is also known as?", R.drawable.kuma,
+            "The Cyborg",
+            "The Tyrant",
+            "The Killer",
+            " The Seraphim",
             2)
 
         val que64 = Question(64,
@@ -385,7 +385,7 @@ object Constants {
             3)
 
         val que66 = Question(66,
-            "Where did the Straw Hat Pirates first meet Nico Robin?", R.drawable.alabasta,
+            "Where did the Straw Hat Pirates first meet Nico Robin?", R.drawable.missallsunday,
             "Arabasta",
             "Baltigo",
             "Elbaf",
@@ -457,7 +457,7 @@ object Constants {
             2)
 
         val que91 = Question(91,
-            "Who was considered as GOD in Skypiea?", R.drawable.shandorians,
+            "Who was considered as GOD in Skypiea?", R.drawable.skyisland,
             "Crocodile",
             "Rob Lucci",
             "Eneru",
@@ -536,6 +536,70 @@ object Constants {
             "Three-Eye Tribe",
             3)
 
+        val que101 = Question(101,
+            " Who is the fist Child of Charlotte Linlin?", R.drawable.bigmom,
+            "Charlotte Katakuri",
+            "Charlotte Oven",
+            "Charlotte Lola",
+            "Charlotte Perospero",
+            4)
+
+        val que102 = Question(102,
+            " Which race does King belongs to?", R.drawable.king,
+            "Lunarians",
+            "Kuja ",
+            "Torino",
+            "Minks",
+            1)
+
+        val que103 = Question(103,
+            " What is the name of the notorious family to which Sanji belongs to?", R.drawable.vinssmoke,
+            "Chef Family",
+            "Charlotte Family",
+            "Vinsmoke Family",
+            "Donquixote Family",
+            3)
+
+        val que104 = Question(104,
+            " What is the name of the Observation Haki in the Skypiea ?", R.drawable.enel,
+            "Haoshoku Haki",
+            "Third Eye",
+            "Busoshoku Haki",
+            "Mantra",
+            4)
+
+        val que105 = Question(105,
+            "What is the name of Smoker's ship ?", R.drawable.smoker,
+            "G-2",
+            "White Striker",
+            "The Ironclad",
+            "The Seastone",
+            1)
+
+        val que106 = Question(106,
+            "Who is Ace's biological father?", R.drawable.ace,
+            "Whitebeard",
+            "Dragon",
+            "Gol D. Roger",
+            "Garp",
+            3)
+
+        val que107 = Question(107,
+            "What type of Devil Fruit does Marco, 1st Division Commander of the Whitebeard Pirates possess?", R.drawable.marco,
+            "Logia-type",
+            "Zoan-type",
+            "Paramecia-type",
+            "Mythical Zoan-type",
+            4)
+
+        val que108 = Question(108,
+            "What is the name of the Celestial Dragon in the One Piece series who caused trouble at the Human Auctioning House?", R.drawable.saintcharlos,
+            "Saint Roswald",
+            "Saint Jalmack",
+            "Saint Charlos",
+            "Saint Mjosgard",
+            3)
+
 
 
 
@@ -612,6 +676,14 @@ object Constants {
         allQuestions.add(que98)
         allQuestions.add(que99)
         allQuestions.add(que100)
+        allQuestions.add(que101)
+        allQuestions.add(que102)
+        allQuestions.add(que103)
+        allQuestions.add(que104)
+        allQuestions.add(que105)
+        allQuestions.add(que106)
+        allQuestions.add(que107)
+        allQuestions.add(que108)
 
 
     }
