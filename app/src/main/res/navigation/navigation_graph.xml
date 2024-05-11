@@ -1,4 +1,4 @@
-<!-- nav_graph.xml -->
+<?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/navigation_graph"
@@ -13,7 +13,6 @@
             android:id="@+id/action_titleFragment_to_instructionsFragment"
             app:destination="@id/instructionsFragment" />
     </fragment>
-
 
     <!-- Instructions Fragment -->
     <fragment
@@ -41,10 +40,6 @@
             android:name="name"
             app:argType="string"
             android:defaultValue="name" />
-        <action
-            android:id="@+id/action_gameFragment_to_titleFragment"
-            app:destination="@id/titleFragment"
-            />
     </fragment>
 
     <!-- Score Fragment -->
@@ -57,6 +52,9 @@
             app:destination="@id/titleFragment"
             app:popUpTo="@id/titleFragment"
             app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_scoreFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
         <argument
             android:name="score"
             app:argType="integer"

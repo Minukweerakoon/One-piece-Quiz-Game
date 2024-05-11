@@ -49,6 +49,14 @@ class ScoreFragment : Fragment() {
 
         // Handle play again button click
         binding.playAgain.setOnClickListener {
+            val action = ScoreFragmentDirections.actionScoreFragmentToGameFragment()
+            action.setName(playerName)
+            findNavController().navigate(action)
+            HapticUtils.performHapticFeedback(requireContext())
+        }
+
+        // Handle exit button click
+        binding.exit.setOnClickListener {
             findNavController().navigate(R.id.action_scoreFragment_to_titleFragment)
             HapticUtils.performHapticFeedback(requireContext())
         }

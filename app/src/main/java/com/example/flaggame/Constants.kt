@@ -537,7 +537,7 @@ object Constants {
             3)
 
         val que101 = Question(101,
-            " Who is the fist Child of Charlotte Linlin?", R.drawable.bigmom,
+            " Who is the first Child of Charlotte Linlin?", R.drawable.bigmom,
             "Charlotte Katakuri",
             "Charlotte Oven",
             "Charlotte Lola",
