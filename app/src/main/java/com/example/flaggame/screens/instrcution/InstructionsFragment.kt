@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.flaggame.R
 import com.example.flaggame.databinding.FragmentInstructionsBinding
+import com.example.flaggame.HapticUtils
 
 class InstructionsFragment : Fragment() {
 
@@ -24,6 +25,7 @@ class InstructionsFragment : Fragment() {
             val action = InstructionsFragmentDirections.actionInstructionsFragmentToGameFragment()
             action.name = arguments?.getString("name") ?: ""
             findNavController().navigate(action)
+            HapticUtils.performHapticFeedback(requireContext())
         }
 
         return binding.root

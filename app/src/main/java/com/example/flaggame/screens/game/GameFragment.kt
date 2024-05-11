@@ -18,6 +18,7 @@ import com.example.flaggame.Constants
 import com.example.flaggame.Question
 import com.example.flaggame.R
 import com.example.flaggame.databinding.FragmentGameBinding
+import com.example.flaggame.HapticUtils
 
 class GameFragment : Fragment(), View.OnClickListener {
 
@@ -95,6 +96,7 @@ class GameFragment : Fragment(), View.OnClickListener {
             R.id.tv_optionOne, R.id.tv_optionTwo, R.id.tv_optionThree, R.id.tv_optionFour -> {
                 if (answersClickable && !answerShown) {
                     selectedOptionView(v as TextView, v.tag as Int)
+                    HapticUtils.performHapticFeedback(requireContext())
                 }
             }
             R.id.btnSubmit -> {
@@ -127,7 +129,9 @@ class GameFragment : Fragment(), View.OnClickListener {
                         answersClickable = false
                         answerShown = true
                         countDownTimer?.cancel()
+                        HapticUtils.performHapticFeedback(requireContext())
                     }
+                    HapticUtils.performHapticFeedback(requireContext())
                 }
             }
         }

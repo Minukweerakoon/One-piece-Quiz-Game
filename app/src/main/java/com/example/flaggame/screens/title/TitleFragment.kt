@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.flaggame.databinding.FragmentTitleBinding
+import com.example.flaggame.HapticUtils
 
 class TitleFragment : Fragment() {
 
@@ -26,9 +27,11 @@ class TitleFragment : Fragment() {
                 val action = TitleFragmentDirections.actionTitleFragmentToInstructionsFragment()
                 action.name = binding.etName.text.toString()
                 findNavController().navigate(action)
+                HapticUtils.performHapticFeedback(requireContext())
             } else {
                 // Display a toast message if the name EditText is empty
                 Toast.makeText(requireContext(), "Enter your name to start", Toast.LENGTH_SHORT).show()
+
             }
         }
 

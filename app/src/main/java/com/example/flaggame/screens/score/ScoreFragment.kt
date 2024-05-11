@@ -10,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.flaggame.R
 import com.example.flaggame.databinding.FragmentScoreBinding
+import com.example.flaggame.HapticUtils
 
 class ScoreFragment : Fragment() {
 
@@ -49,6 +50,7 @@ class ScoreFragment : Fragment() {
         // Handle play again button click
         binding.playAgain.setOnClickListener {
             findNavController().navigate(R.id.action_scoreFragment_to_titleFragment)
+            HapticUtils.performHapticFeedback(requireContext())
         }
 
         // Handle back press to navigate to title fragment
