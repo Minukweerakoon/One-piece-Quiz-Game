@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var toggleButtonMute: ToggleButton
     private lateinit var backgroundMediaPlayer: MediaPlayer
-    private val audioResources = intArrayOf(R.raw.bgaudio1, R.raw.bgmusic)
+    private val audioResources = intArrayOf(R.raw.bgmusic2new)
     private var currentTrackIndex = 0
     private var screenOffReceiver: BroadcastReceiver? = null
     private var screenOnReceiver: BroadcastReceiver? = null
