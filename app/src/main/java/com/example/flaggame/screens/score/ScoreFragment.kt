@@ -43,7 +43,7 @@ class ScoreFragment : Fragment() {
             8 -> "Almost perfect!"
             9 -> "The One Piece is REAL!"
             10 -> "Perfect score! You are a Legend!"
-            else -> "Unknown score"
+            else -> "Are you that unlucky?"
         }
         binding.scoreMessage.text = message
 
