@@ -4,6 +4,8 @@
     package="com.example.flaggame">
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
 
     <application
@@ -16,6 +18,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlagGame"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2948369926561654~7987330211"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

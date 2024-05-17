@@ -21,19 +21,24 @@ class TitleFragment : Fragment() {
         binding = FragmentTitleBinding.inflate(inflater, container, false)
 
         binding.startBtn.setOnClickListener {
-            // Check if the name EditText is not empty
-            if (binding.etName.text.toString().isNotEmpty()) {
+            // Get the entered name
+            val enteredName = binding.etName.text.toString().trim()
+
+            if (enteredName.isNotEmpty()) {
+                // Capitalize the first letter of the name
+                val formattedName = enteredName.substring(0, 1).toUpperCase() + enteredName.substring(1)
+
                 // Navigate to the InstructionsFragment
                 val action = TitleFragmentDirections.actionTitleFragmentToInstructionsFragment()
-                action.name = binding.etName.text.toString()
+                action.name = formattedName
                 findNavController().navigate(action)
                 HapticUtils.performHapticFeedback(requireContext())
             } else {
                 // Display a toast message if the name EditText is empty
                 Toast.makeText(requireContext(), "Enter your name to start", Toast.LENGTH_SHORT).show()
-
             }
         }
+
 
         return binding.root
     }

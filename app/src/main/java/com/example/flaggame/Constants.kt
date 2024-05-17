@@ -600,6 +600,143 @@ object Constants {
             "Saint Mjosgard",
             3)
 
+        val que109 = Question(109,
+            "What was the name of Jinbe’s former captain while he was a member of the Sun Pirates?", R.drawable.sunpirates,
+            "Fishing Tiger",
+            "Fisher Tiger",
+            "Sea Tiger",
+            "Ocean Tiger",
+            2)
+
+        val que110 = Question(110,
+            "How many times was Whitebeard shot with bullets during the Paramount War?", R.drawable.whitebd,
+            "152",
+            "72",
+            "267",
+            "46",
+            1)
+
+        val que111 = Question(111,
+            "Which Devil Fruit does Whitebeard possess?", R.drawable.wb,
+            "Gomu Gomu no Mi",
+            " Mera Mera no Mi",
+            "Gura Gura no Mi",
+            "Hie Hie no Mi",
+            3)
+
+        val que112 = Question(112,
+            "What Sea does Sanji originally come from?", R.drawable.sanji1,
+            "The East Blue",
+            "The West Blue",
+            "The North Blue",
+            "The South Blue",
+            3)
+
+        val que113 = Question(113,
+            "Where did  Dorry & Brogy  kept fighting for 100 years?", R.drawable.dorry_vs_brogy,
+            "Elbaf",
+            "Little Garden",
+            "Totto land",
+            "Jaya",
+            2)
+
+        val que114 = Question(114,
+            "Who is the current warden of Impel Down?", R.drawable.magellan,
+            "Saldeath",
+            "Hannyabal",
+            "Domino",
+            "Magellan",
+            4)
+
+        val que115 = Question(115,
+            "What is the name of Conis's pet?", R.drawable.su,
+            "Fhu",
+            "Su",
+            "Fu",
+            "Shu",
+            2)
+
+        val que116 = Question(116,
+            "What was captain Kuro's undercover name when he was in Kaya's mansion?", R.drawable.kuro,
+            "Klahadore",
+            "Chakrams",
+            "Nugire Yainu",
+            "Bezan",
+            1)
+
+        val que117 = Question(117,
+            "Who is the first person to escape Impel Down?", R.drawable.impel,
+            "Shiki",
+            "Luffy",
+            "Emporio Ivankov",
+            "Shiryu",
+            1)
+
+        val que118 = Question(118,
+            "Who sacrificed himself to save Luffy from Impel Down?", R.drawable.bonclay,
+            "Jinbe",
+            "Ivankov",
+            "Bon Clay",
+            "Crocodile",
+            3)
+
+        val que119 = Question(119,
+            "How many children does Charlotte Linlin have?", R.drawable.bigmom,
+            "79",
+            "81",
+            "76",
+            "85",
+            4)
+
+        val que120 = Question(120,
+            "How many children does Charlotte Linlin have?", R.drawable.choppermush,
+            "79",
+            "81",
+            "76",
+            "85",
+            4)
+
+        val que121 = Question(121,
+            "Which pirate crew made the promise to return to Laboon?", R.drawable.laboon,
+            "Whitebeard Pirates",
+            "Roger Pirates",
+            "Rumbar Pirates",
+            "Red-Haired Pirates",
+            3)
+
+        val que122 = Question(122,
+            "What is the main reason Zunesha is wandering the seas?", R.drawable.zunesha,
+            "Searching for treasure",
+            "As punishment for a crime",
+            "Looking for its lost family",
+            "Following an eternal log pose",
+            2)
+
+        val que123 = Question(123,
+            "What special transformation can Carrot undergo during a full moon?", R.drawable.carrot_sulong_form_one_piece,
+            "Sulong",
+            "Minks",
+            "Awakening",
+            "Demons",
+            1)
+
+        val que124 = Question(124,
+            "What unusual ability did Momonosuke gain from his artificial Devil Fruit?", R.drawable.momo,
+            "The ability to control weather",
+            "The ability to turn invisible",
+            "The ability to transform into a dragon",
+            "The ability to manipulate gravity",
+            3)
+
+        val que125 = Question(125,
+            "What is Admiral Fujitora's real name?", R.drawable.fujitora,
+            "Issho",
+            "Sakazuki",
+            "Kizaru",
+            "Tsuru",
+            1)
+
+
 
 
 
@@ -684,6 +821,23 @@ object Constants {
         allQuestions.add(que106)
         allQuestions.add(que107)
         allQuestions.add(que108)
+        allQuestions.add(que109)
+        allQuestions.add(que110)
+        allQuestions.add(que111)
+        allQuestions.add(que112)
+        allQuestions.add(que113)
+        allQuestions.add(que114)
+        allQuestions.add(que115)
+        allQuestions.add(que116)
+        allQuestions.add(que117)
+        allQuestions.add(que118)
+        allQuestions.add(que119)
+        allQuestions.add(que120)
+        allQuestions.add(que121)
+        allQuestions.add(que122)
+        allQuestions.add(que123)
+        allQuestions.add(que124)
+        allQuestions.add(que125)
 
 
     }
