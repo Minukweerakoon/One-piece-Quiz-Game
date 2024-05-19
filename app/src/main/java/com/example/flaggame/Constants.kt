@@ -689,7 +689,7 @@ object Constants {
             4)
 
         val que120 = Question(120,
-            "How many children does Charlotte Linlin have?", R.drawable.choppermush,
+            "How many children does Charlotte Linlin have?", R.drawable.bigmom,
             "79",
             "81",
             "76",
@@ -735,6 +735,131 @@ object Constants {
             "Kizaru",
             "Tsuru",
             1)
+
+        val que126 = Question(126,
+            "What is the true identity of the pirate known as Joker?", R.drawable.dressrosa,
+            "Kaido",
+            "Big Mom",
+            " Marshall D. Teach",
+            "Donquixote Doflamingo",
+            4)
+
+        val que127 = Question(127,
+            "What was the name of the ship owned by the Roger Pirates?", R.drawable.roger,
+            "Thousand Sunny",
+            "Oro Jackson",
+            " Moby Dick",
+            "Going Merry",
+            2)
+
+        val que128 = Question(128,
+            "What is the real name of the pirate known as Blackbeard?", R.drawable.blackbeard,
+            "Edward Newgate",
+            "Charlotte Linlin",
+            "Marshall D. Teach",
+            "Gol D. Roger",
+            3)
+
+        val que129 = Question(129,
+            "What is the name of Zoro's cursed sword?", R.drawable.zorosword,
+            "Shusui",
+            "Wado Ichimonji",
+            "Kitetsu III",
+            "Sandai Kitetsu",
+            4)
+
+        val que130 = Question(130,
+            "Who was the Captain of the Rumbar Pirates?", R.drawable.rumba,
+            "Brook",
+            "Yorki",
+            "Fisher Tiger",
+            " Hatchan",
+            2)
+
+        val que131 = Question(131,
+            "What is the name of the island where Luffy and his crew encounter the scientist Caesar Clown?", R.drawable.caesarclown,
+            "Punk Hazard",
+            "Dressrosa",
+            "Zou",
+            "Wano",
+            1)
+
+        val que132 = Question(132,
+            "What is the name of the whale that the Straw Hat Pirates meet at Reverse Mountain?", R.drawable.laboon,
+            "Zunisha",
+            "Surume",
+            "Laboon",
+            "Moo Moo",
+            4)
+
+        val que133 = Question(133,
+            "Which Gear Fourth form did Luffy first use in the fight against Doflamingo?", R.drawable.gearfourth,
+            "Tankman",
+            "Boundman",
+            "Snakeman",
+            "Gear Second",
+            2)
+
+        val que134 = Question(134,
+            "In which arc did Luffy first reveal Gear Second?", R.drawable.secondgear,
+            "Enies Lobby",
+            "Skypiea",
+            "Water 7",
+            "Dressrosa",
+            1)
+
+        val que135 = Question(135,
+            "Which member of the Worst Generation has the epithet 'Magician'?", R.drawable.basile,
+            "Urouge",
+            "Basil Hawkins",
+            "Capone Bege",
+            "X Drake",
+            2)
+
+        val que136 = Question(136,
+            "What is the real identity of the character known as Kyoshiro?", R.drawable.denjiro,
+            "Kanjuro",
+            "Kin'emon",
+            "Kawamatsu",
+            "Denjiro",
+            4)
+
+        val que137 = Question(137,
+            "Raizo swore allegiance to which clan in Wano?", R.drawable.raizo,
+            "Kurozumi Clan",
+            "Shimotsuki Clan",
+            "Kozuki Clan",
+            "Amatsuki Clan",
+            3)
+
+        val que138 = Question(138,
+            "What type of Devil Fruit is the Hie Hie no Mi, consumed by Aokiji?", R.drawable.aokiji,
+            "Paramecia",
+            "Zoan",
+            "Logia",
+            "Mythical Zoan",
+            3)
+
+        val que139 = Question(139,
+            "Who is the current user of the Ito Ito no Mi?", R.drawable.ito_ito_nomi,
+            "Donquixote Doflamingo",
+            "Crocodile",
+            "Trafalgar Law",
+            "Boa Hancock",
+            1)
+
+        val que140 = Question(140,
+            "Which Devil Fruit was eaten by Charlotte Katakuri?", R.drawable.katakuri,
+            "Doru Doru no Mi",
+            "Mochi Mochi no Mi",
+            "Bari Bari no Mi",
+            "Doku Doku no Mi",
+            2)
+
+
+
+
+
 
 
 
@@ -838,6 +963,22 @@ object Constants {
         allQuestions.add(que123)
         allQuestions.add(que124)
         allQuestions.add(que125)
+        allQuestions.add(que126);
+        allQuestions.add(que127);
+        allQuestions.add(que128);
+        allQuestions.add(que129);
+        allQuestions.add(que130);
+        allQuestions.add(que131);
+        allQuestions.add(que132);
+        allQuestions.add(que133);
+        allQuestions.add(que134);
+        allQuestions.add(que135);
+        allQuestions.add(que136);
+        allQuestions.add(que137);
+        allQuestions.add(que138);
+        allQuestions.add(que139);
+        allQuestions.add(que140);
+
 
 
     }
