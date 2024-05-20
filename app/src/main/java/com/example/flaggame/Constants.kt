@@ -790,7 +790,7 @@ object Constants {
             "Surume",
             "Laboon",
             "Moo Moo",
-            4)
+            3)
 
         val que133 = Question(133,
             "Which Gear Fourth form did Luffy first use in the fight against Doflamingo?", R.drawable.gearfourth,
