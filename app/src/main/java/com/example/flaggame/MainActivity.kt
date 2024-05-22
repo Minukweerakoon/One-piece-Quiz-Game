@@ -6,28 +6,30 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.media.MediaPlayer
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ToggleButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.flaggame.databinding.ActivityMainBinding
+import java.util.Collections
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var toggleButtonMute: ToggleButton
     private lateinit var backgroundMediaPlayer: MediaPlayer
-    private val audioResources = intArrayOf(R.raw.bgmusic2new)
+    private val audioResources = intArrayOf(R.raw.bgmusic2new, R.raw.binksake)
     private var currentTrackIndex = 0
     private var screenOffReceiver: BroadcastReceiver? = null
     private var screenOnReceiver: BroadcastReceiver? = null
     private var screenReceiver: BroadcastReceiver? = null
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         val binding: ActivityMainBinding =
             DataBindingUtil.setContentView(this, R.layout.activity_main)
+
+        // Shuffle the audio resources to play in random order
+        audioResources.shuffle()
 
         // Initialize MediaPlayer with the first background music track
         backgroundMediaPlayer = MediaPlayer.create(this, audioResources[currentTrackIndex])
@@ -59,9 +61,7 @@ class MainActivity : AppCompatActivity() {
 
         // Register BroadcastReceiver to listen for screen visibility changes
         registerScreenVisibilityReceiver()
-
     }
-
 
     private fun switchToNextTrack() {
         // Move to the next track
