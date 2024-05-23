@@ -944,6 +944,31 @@ object Constants {
             "None of the above",
             2)
 
+        val que152 = Question(152,
+            "To which pirate group this Jolly Roge belongs to?", R.drawable.kid,
+            "Trafalgar Law",
+            "Basil Hawkins",
+            "Capone Bege",
+            "Eustass Kid",
+            4)
+
+        val que153 = Question(153,
+            "Sengoku is known by what title due to his Devil Fruit ability?", R.drawable.sengoku,
+            "The Strongest Man in the World",
+            "The Demon Bamboos",
+            "The Buddha",
+            "The Golden Lion",
+            3)
+
+        val que154 = Question(154,
+            "Where were the Rocks Pirates defeated, leading to the downfall of their crew?", R.drawable.rocks,
+            "Marineford",
+            "God Valley",
+            "Sabaody Archipelago",
+            "Enies Lobby",
+            2)
+
+
 
 
 
@@ -1077,6 +1102,9 @@ object Constants {
         allQuestions.add(que149);
         allQuestions.add(que150);
         allQuestions.add(que151);
+        allQuestions.add(que152);
+        allQuestions.add(que153);
+        allQuestions.add(que154);
 
 
 
