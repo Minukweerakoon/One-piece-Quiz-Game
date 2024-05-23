@@ -145,8 +145,8 @@ object Constants {
 
         val que17 = Question(17,
             "What is Zoro's famous sword style called?", R.drawable.zoro,
-            "Santoryo (3 Swords Style)",
-            "Nitoryu (2 Swords Style)",
+            "Santoryo",
+            "Nitoryu",
             "Oni Giri",
             "Taka Nami",
             1)
@@ -186,7 +186,7 @@ object Constants {
         val que22 = Question(22,
             "What is these special Fruit is called?", R.drawable.smile,
             "Devil Fruits",
-            "Smiles",
+            "Smiles Fruits",
             "Rubber Fruits",
             "Button Fruits",
             2)
@@ -936,6 +936,14 @@ object Constants {
             "Silvers Rayleigh",
             3)
 
+        val que151 = Question(151,
+            "What Devil Fruit ability does Yamato possess?", R.drawable.yamato,
+            "Ryu Ryu no Mi, Model: T-Rex",
+            "Inu Inu no Mi, Model: Okuchi no Makami",
+            "Tori Tori no Mi, Model: Falcon",
+            "None of the above",
+            2)
+
 
 
 
@@ -1068,6 +1076,7 @@ object Constants {
         allQuestions.add(que148);
         allQuestions.add(que149);
         allQuestions.add(que150);
+        allQuestions.add(que151);
 
 
 

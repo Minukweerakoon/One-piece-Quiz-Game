@@ -32,9 +32,7 @@ class MainActivity : AppCompatActivity() {
         audioResources.shuffle()
 
         // Initialize MediaPlayer with the first background music track
-        backgroundMediaPlayer = MediaPlayer.create(this, audioResources[currentTrackIndex])
-        backgroundMediaPlayer.isLooping = false
-        backgroundMediaPlayer.start()
+        initializeMediaPlayer()
 
         toggleButtonMute = binding.toggleButtonMute
 
@@ -48,11 +46,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Set up a listener to switch to the next track when the current one completes
-        backgroundMediaPlayer.setOnCompletionListener {
-            switchToNextTrack()
-        }
-
         // Register BroadcastReceiver to listen for screen off event
         registerScreenOffReceiver()
 
@@ -63,14 +56,32 @@ class MainActivity : AppCompatActivity() {
         registerScreenVisibilityReceiver()
     }
 
+    private fun initializeMediaPlayer() {
+        backgroundMediaPlayer = MediaPlayer.create(this, audioResources[currentTrackIndex])
+        backgroundMediaPlayer.isLooping = false
+
+        // Set up a listener to switch to the next track when the current one completes
+        backgroundMediaPlayer.setOnCompletionListener {
+            switchToNextTrack()
+        }
+
+        backgroundMediaPlayer.start()
+    }
+
     private fun switchToNextTrack() {
         // Move to the next track
         currentTrackIndex = (currentTrackIndex + 1) % audioResources.size
 
-        // Set the data source to the next track and start playing
+        // Reset and initialize MediaPlayer with the next track
         backgroundMediaPlayer.reset()
         backgroundMediaPlayer = MediaPlayer.create(this, audioResources[currentTrackIndex])
         backgroundMediaPlayer.isLooping = false
+
+        // Set up a listener to switch to the next track when the current one completes
+        backgroundMediaPlayer.setOnCompletionListener {
+            switchToNextTrack()
+        }
+
         backgroundMediaPlayer.start()
     }
 
