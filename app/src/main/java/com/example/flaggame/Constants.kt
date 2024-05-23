@@ -513,11 +513,11 @@ object Constants {
             1)
 
         val que98 = Question(98,
-            "Who took over Chopper's body in Punk Hazard?", R.drawable.punkhazard,
-            "Franky",
-            "Sanji",
-            "Nami",
-            "Usopp",
+            "How many times bigger is Oars than a regular giant?", R.drawable.oars,
+            "4X",
+            "2X",
+            "10X",
+            "20X",
             1)
 
         val que99 = Question(99,
@@ -856,6 +856,86 @@ object Constants {
             "Doku Doku no Mi",
             2)
 
+        val que141 = Question(141,
+            "How long did Portgas D. Rouge's pregnancy last?", R.drawable.portgasrouge,
+            "14 Months",
+            "9 Months",
+            "20 Months",
+            "15 Months",
+            3)
+
+        val que142 = Question(142,
+            "Who wrote about a 'Fifth Emperor'?", R.drawable.morgans,
+            "COOPER",
+            "Bob Woodward",
+            "Piers",
+            "Morgans",
+            4)
+
+        val que143 = Question(143,
+            "What is the name of the mayor of Luffy's hometown?", R.drawable.woopslap,
+            "Woop Slap.",
+            "Benn Beckman",
+            "Piers",
+            "Morgans",
+            1)
+
+        val que144 = Question(144,
+            "What is the name of the mayor of Luffy's hometown?", R.drawable.woopslap,
+            "Woop Slap.",
+            "Benn Beckman",
+            "Piers",
+            "Morgans",
+            1)
+
+        val que145 = Question(145,
+            "Who gave Shanks the scar on his eye?", R.drawable.shanks1,
+            "Whitebeard",
+            "Gol D Roger",
+            "Luffy",
+            "Marshall D.Teach",
+            4)
+
+        val que146 = Question(146,
+            "What was Coby's initial dream when he was first introduced ?", R.drawable.coby,
+            "To become the Pirate King",
+            "To become a Marine Admiral",
+            "To find the All Blue",
+            "To become a great swordsman",
+            2)
+
+        val que147 = Question(147,
+            "Who is Vivi's loyal pet and companion?", R.drawable.karoo,
+            "Karoo",
+            "Chopper",
+            "Laboon",
+            "Bepo",
+            1)
+
+        val que148 = Question(148,
+            "Which two swords did Kozuki Oden wield?", R.drawable.oden1,
+            "Wado Ichimonji and Shusui",
+            "Sandai Kitetsu and Enma",
+            "Ame no Habakiri and Enma",
+            "Shusui and Yubashiri",
+            3)
+
+        val que149 = Question(149,
+            "What is the name of Oden's wife?", R.drawable.oden,
+            "Shini",
+            "Hiyori",
+            "Toki",
+            "Kiku",
+            3)
+
+        val que150 = Question(150,
+            "Who wrote the message on the Poneglyph in Skypiea?", R.drawable.golroger_ponagliph,
+            "Gol D. Roger",
+            "Nico Robin",
+            "Kozuki Oden",
+            "Silvers Rayleigh",
+            3)
+
 
 
 
@@ -978,6 +1058,16 @@ object Constants {
         allQuestions.add(que138);
         allQuestions.add(que139);
         allQuestions.add(que140);
+        allQuestions.add(que141);
+        allQuestions.add(que142);
+        allQuestions.add(que143);
+        allQuestions.add(que144);
+        allQuestions.add(que145);
+        allQuestions.add(que146);
+        allQuestions.add(que147);
+        allQuestions.add(que148);
+        allQuestions.add(que149);
+        allQuestions.add(que150);
 
 
 
