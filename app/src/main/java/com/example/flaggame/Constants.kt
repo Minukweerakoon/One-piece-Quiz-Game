@@ -968,6 +968,14 @@ object Constants {
             "Enies Lobby",
             2)
 
+        val que155 = Question(155,
+            "When did luffy first use conqueror's haki?", R.drawable.luffyconq,
+            "Against Motobaro with Iron Mask Duval",
+            "War at Marineford",
+            "Against Snake Sisters",
+            "Against Hody Jones fishman island",
+            1)
+
 
 
 
