@@ -7,7 +7,7 @@
     <!-- Title Fragment -->
     <fragment
         android:id="@+id/titleFragment"
-        android:name="com.example.flaggame.screens.title.TitleFragment"
+        android:name="com.minuk.onepiecequiz.screens.title.TitleFragment"
         android:label="TitleFragment" >
         <action
             android:id="@+id/action_titleFragment_to_instructionsFragment"
@@ -17,7 +17,7 @@
     <!-- Instructions Fragment -->
     <fragment
         android:id="@+id/instructionsFragment"
-        android:name="com.example.flaggame.screens.instructions.InstructionsFragment"
+        android:name="com.minuk.onepiecequiz.screens.instructions.InstructionsFragment"
         android:label="InstructionsFragment">
         <action
             android:id="@+id/action_instructionsFragment_to_gameFragment"
@@ -31,7 +31,7 @@
     <!-- Game Fragment -->
     <fragment
         android:id="@+id/gameFragment"
-        android:name="com.example.flaggame.screens.game.GameFragment"
+        android:name="com.minuk.onepiecequiz.screens.game.GameFragment"
         android:label="GameFragment" >
         <action
             android:id="@+id/action_gameFragment_to_scoreFragment"
@@ -45,7 +45,7 @@
     <!-- Score Fragment -->
     <fragment
         android:id="@+id/scoreFragment"
-        android:name="com.example.flaggame.screens.score.ScoreFragment"
+        android:name="com.minuk.onepiecequiz.screens.score.ScoreFragment"
         android:label="ScoreFragment" >
         <action
             android:id="@+id/action_scoreFragment_to_titleFragment"

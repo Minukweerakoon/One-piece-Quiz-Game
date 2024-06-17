@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.flaggame">
+    package="com.minuk.onepiecequiz">
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -13,7 +13,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="OnePiece Quiz Game"
+        android:label="OnePiece Quiz"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FlagGame"
@@ -23,7 +23,7 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-2948369926561654~7987330211"/>
         <activity
-            android:name=".MainActivity"
+            android:name="com.minuk.onepiecequiz.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBar"

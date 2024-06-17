@@ -1,4 +1,4 @@
-package com.example.flaggame.screens.score
+package com.minuk.onepiecequiz.screens.score
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,9 @@ import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.flaggame.R
-import com.example.flaggame.databinding.FragmentScoreBinding
-import com.example.flaggame.HapticUtils
+import com.minuk.onepiecequiz.R
+import com.minuk.onepiecequiz.databinding.FragmentScoreBinding
+import com.minuk.onepiecequiz.HapticUtils
 
 class ScoreFragment : Fragment() {
 

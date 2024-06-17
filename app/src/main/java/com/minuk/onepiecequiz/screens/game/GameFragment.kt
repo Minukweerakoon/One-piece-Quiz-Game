@@ -1,10 +1,9 @@
-package com.example.flaggame.screens.game
+package com.minuk.onepiecequiz.screens.game
 
 import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Bundle
 import android.os.CountDownTimer
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,11 +13,11 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.flaggame.Constants
-import com.example.flaggame.Question
-import com.example.flaggame.R
-import com.example.flaggame.databinding.FragmentGameBinding
-import com.example.flaggame.HapticUtils
+import com.minuk.onepiecequiz.Constants
+import com.minuk.onepiecequiz.Question
+import com.minuk.onepiecequiz.R
+import com.minuk.onepiecequiz.databinding.FragmentGameBinding
+import com.minuk.onepiecequiz.HapticUtils
 
 class GameFragment : Fragment(), View.OnClickListener {
 

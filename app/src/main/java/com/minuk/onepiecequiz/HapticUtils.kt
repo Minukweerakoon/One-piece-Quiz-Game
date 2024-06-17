@@ -1,4 +1,4 @@
-package com.example.flaggame
+package com.minuk.onepiecequiz
 import android.content.Context
 import android.os.Build
 import android.os.VibrationEffect

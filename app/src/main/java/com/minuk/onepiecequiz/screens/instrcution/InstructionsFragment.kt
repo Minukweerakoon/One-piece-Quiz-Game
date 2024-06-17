@@ -1,4 +1,4 @@
-package com.example.flaggame.screens.instructions
+package com.minuk.onepiecequiz.screens.instructions
 
 import android.os.Bundle
 import android.text.Html
@@ -8,9 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.flaggame.R
-import com.example.flaggame.databinding.FragmentInstructionsBinding
-import com.example.flaggame.HapticUtils
+import com.minuk.onepiecequiz.databinding.FragmentInstructionsBinding
+import com.minuk.onepiecequiz.HapticUtils
 
 class InstructionsFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.example.flaggame
+package com.minuk.onepiecequiz
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -9,8 +9,7 @@ import android.os.Bundle
 import android.widget.ToggleButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.example.flaggame.databinding.ActivityMainBinding
-import java.util.Collections
+import com.minuk.onepiecequiz.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

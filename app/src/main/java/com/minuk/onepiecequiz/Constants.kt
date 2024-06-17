@@ -1,4 +1,4 @@
-package com.example.flaggame
+package com.minuk.onepiecequiz
 
 object Constants {
     private val allQuestions = ArrayList<Question>()

@@ -1,4 +1,4 @@
-package com.example.flaggame.screens.title
+package com.minuk.onepiecequiz.screens.title
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.flaggame.databinding.FragmentTitleBinding
-import com.example.flaggame.HapticUtils
+import com.minuk.onepiecequiz.databinding.FragmentTitleBinding
+import com.minuk.onepiecequiz.HapticUtils
 
 class TitleFragment : Fragment() {
 
