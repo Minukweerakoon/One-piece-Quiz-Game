@@ -23,7 +23,7 @@ class InstructionsFragment : Fragment() {
         binding = FragmentInstructionsBinding.inflate(inflater, container, false)
 
         // Set the privacy policy link
-        binding.tvPrivacyPolicy.text = Html.fromHtml("<a href=\"https://www.yourprivacypolicyurl.com\">Privacy Policy</a>")
+        binding.tvPrivacyPolicy.text = Html.fromHtml("<a href=\"https://github.com/Minukweerakoon/One-piece-Quiz-Game/blob/main/PRIVACY.md\">Privacy Policy</a>")
         binding.tvPrivacyPolicy.movementMethod = LinkMovementMethod.getInstance()
 
         // Navigate to the game page when the continue button is clicked
