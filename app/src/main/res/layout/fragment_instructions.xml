@@ -42,6 +42,19 @@
                     android:text="Disclaimer:\nThis game contains spoilers from the anime One Piece. If you haven't watched at least up to the Wano Arc, you may encounter spoilers.\n \n\nHow to Play:\n\nKnowledge Test:\nThis game will test your knowledge about the One Piece anime series.\n\nTime Limit:\nYou have 10 seconds to answer each question. If you don't answer within the time limit, the game will move on to the next question automatically.\n\nObjective:\nEnjoy and have fun while testing your knowledge of One Piece"
                     android:textColor="@color/white"
                     android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_privacy_policy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Privacy Policy"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:linksClickable="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"/>
             </LinearLayout>
 
         </ScrollView>
