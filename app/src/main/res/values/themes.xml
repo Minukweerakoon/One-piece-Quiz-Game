@@ -12,8 +12,8 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="textColorPrimary">@color/black</item> <!-- Set text color to black for light theme -->
     </style>
-
 
     <style name="NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
@@ -27,5 +27,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="textColorPrimary">@color/black</item> <!-- Set text color to black for light theme -->
     </style>
 </resources>
