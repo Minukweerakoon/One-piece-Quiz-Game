@@ -8,7 +8,8 @@ One-Piece Quiz is a trivia game designed to test your knowledge about the anime 
 - Each question has a time limit of 10 seconds
 
 ## Installation
-The game is available for installation on the Google Play Store.
+[Download APK from Google Drive](https://drive.google.com/uc?export=download&id=1kAKTiPwoZR2Z4Oye3_2ux43VKEX4DPWn)
+
 
 ## Screenshots
 <img src="https://github.com/Minukweerakoon/One-piece-Quiz-Game/assets/161678048/6aa3b267-9955-4596-baf6-915cfc135ede" width="300" height="600">
